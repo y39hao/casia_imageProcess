@@ -1,0 +1,33 @@
+﻿Build started 2016/4/6 9:55:07.
+     1>Project "E:\hy\ImageProcess\ImageProcess\ImageProcess.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ImageProcess.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ImageProcess.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Design.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Keyboard.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Schedule.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.SuperGrid.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar2.dll /FUE:\hy\ImageProcess\Release\DevComponents.Instrumentation.Design.dll /FUE:\hy\ImageProcess\Release\DevComponents.Instrumentation.dll /FUE:\hy\ImageProcess\Release\DevComponents.SuperGrid.Design.dll /FUE:\hy\ImgProcessControl\ImgProcessControl\Release\DevComponents.TreeGX.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt ImageProcessControl.cpp /clr:nostdlib 
+         ImageProcessControl.cpp
+         All outputs are up-to-date.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Design.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Keyboard.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Schedule.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.SuperGrid.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar2.dll /r:E:\hy\ImageProcess\Release\DevComponents.Instrumentation.Design.dll /r:E:\hy\ImageProcess\Release\DevComponents.Instrumentation.dll /r:E:\hy\ImageProcess\Release\DevComponents.SuperGrid.Design.dll /r:E:\hy\ImgProcessControl\ImgProcessControl\Release\DevComponents.TreeGX.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile ImageProcessControl.resX,Release\ImageProcess.ImageProcessControl.resources
+         Processing resource file "ImageProcessControl.resX" into "Release\ImageProcess.ImageProcessControl.resources".
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\hy\ImageProcess\Release\ImageProcess.dll" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\ImageProcess.ImageProcessControl.resources /MANIFEST /ManifestFile:"Release\ImageProcess.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\hy\ImageProcess\Release\ImageProcess.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Release\app.res
+         Release\AssemblyInfo.obj
+         Release\ImageProcessControl.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ImageProcess.vcxproj -> E:\hy\ImageProcess\Release\ImageProcess.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\hy\ImageProcess\Release\ImageProcess.dll;#2" /manifest Release\ImageProcess.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\ImageProcess.unsuccessfulbuild".
+         Touching "Release\ImageProcess.lastbuildstate".
+     1>Done Building Project "E:\hy\ImageProcess\ImageProcess\ImageProcess.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63

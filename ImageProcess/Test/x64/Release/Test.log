@@ -1,0 +1,39 @@
+﻿Build started 2016/4/26 19:01:42.
+     1>Project "E:\hy\ImageProcess\Test\Test.vcxproj" on node 2 (build target(s)).
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1395,5): warning : The referenced project '..\ImgProcessControl_new\ImgProcessControl_new.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         Creating "x64\Release\Test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\Test.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FUE:\hy\ImageProcess\x64\Release\ImageProcess.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\Test.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FUE:\hy\ImageProcess\x64\Release\ImageProcess.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt AssemblyInfo.cpp Test.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         Test.cpp
+     1>e:\hy\imageprocess\test\Form1.h(25): warning C4679: 'ImageProcess::ImageProcessControl::ChoosePanelIndex' : could not import member
+                 This diagnostic occurred while importing type 'ImageProcess::ImageProcessControl ' from assembly 'ImageProcess, Version=1.0.5960.34250, Culture=neutral, PublicKeyToken=null'.
+         Generating Code...
+         All outputs are up-to-date.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:E:\hy\ImageProcess\x64\Release\ImageProcess.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile Form1.resX,x64\Release\Test.Form1.resources
+         Processing resource file "Form1.resX" into "x64\Release\Test.Form1.resources".
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\hy\ImageProcess\x64\Release\Test.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:x64\Release\Test.Form1.resources /MANIFEST /ManifestFile:"x64\Release\Test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\hy\ImageProcess\x64\Release\Test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Release\app.res
+         x64\Release\AssemblyInfo.obj
+         x64\Release\stdafx.obj
+         x64\Release\Test.obj
+         "x64\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Test.vcxproj -> E:\hy\ImageProcess\x64\Release\Test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\hy\ImageProcess\x64\Release\Test.exe;#1" /manifest x64\Release\Test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\Test.unsuccessfulbuild".
+         Touching "x64\Release\Test.lastbuildstate".
+     1>Done Building Project "E:\hy\ImageProcess\Test\Test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.00

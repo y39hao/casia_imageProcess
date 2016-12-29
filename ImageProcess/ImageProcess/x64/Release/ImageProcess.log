@@ -1,0 +1,138 @@
+﻿Build started 2016/4/26 19:11:15.
+     1>Project "E:\hy\ImageProcess\ImageProcess\ImageProcess.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\ImageProcess.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Release\ImageProcess.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\ImageProcess.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Design.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Keyboard.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Schedule.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.SuperGrid.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar2.dll /FUE:\hy\ImageProcess\Release\DevComponents.Instrumentation.Design.dll /FUE:\hy\ImageProcess\Release\DevComponents.Instrumentation.dll /FUE:\hy\ImageProcess\Release\DevComponents.SuperGrid.Design.dll /FUE:\hy\ImgProcessControl\ImgProcessControl\Release\DevComponents.TreeGX.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\ImageProcess.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Design.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Keyboard.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.Schedule.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar.SuperGrid.dll /FUE:\hy\ImageProcess\Release\DevComponents.DotNetBar2.dll /FUE:\hy\ImageProcess\Release\DevComponents.Instrumentation.Design.dll /FUE:\hy\ImageProcess\Release\DevComponents.Instrumentation.dll /FUE:\hy\ImageProcess\Release\DevComponents.SuperGrid.Design.dll /FUE:\hy\ImgProcessControl\ImgProcessControl\Release\DevComponents.TreeGX.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt AssemblyInfo.cpp ImageControlProcess.cpp ImageProcess.cpp ImageProcessControl.cpp LoadingForm.cpp ShowImage.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         ImageControlProcess.cpp
+     1>e:\directories\opencv244\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>ImageControlProcess.cpp(144): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(145): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(150): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(150): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(162): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(162): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(169): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(170): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(175): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(181): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(184): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(184): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(199): warning C4101: 'e' : unreferenced local variable
+     1>ImageControlProcess.cpp(206): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(207): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>ImageControlProcess.cpp(249): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(253): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(257): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(262): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(267): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(272): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(277): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(282): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(288): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(295): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(308): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(308): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>ImageControlProcess.cpp(315): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         ImageProcess.cpp
+     1>ImageProcess.cpp(43): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ImageProcess.cpp(43): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>ImageProcess.cpp(90): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ImageProcess.cpp(96): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         ImageProcessControl.cpp
+     1>e:\directories\opencv244\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(56): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(57): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1614): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1615): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1618): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1618): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1630): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1630): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1637): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1638): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1643): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1649): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1658): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1658): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1658): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1658): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1659): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(1659): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2004): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2009): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2045): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2080): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2081): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2084): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2085): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\hy\imageprocess\imageprocess\ImageProcessControl.h(2684): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         LoadingForm.cpp
+         ShowImage.cpp
+     1>e:\directories\opencv244\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>ShowImage.cpp(45): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>ShowImage.cpp(51): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlimage.h(592): warning C4793: 'ATL::CImage::CDCCache::GetDC' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>d:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlimage.h(610): warning C4793: 'ATL::CImage::CDCCache::ReleaseDC' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>e:\directories\opencv244\include\opencv2\core\types_c.h(308): warning C4793: 'cvRound' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>e:\directories\opencv244\include\opencv2\core\types_c.h(308): warning C4793: 'cvRound' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>e:\directories\opencv244\include\opencv2\core\types_c.h(309): warning C4793: 'cvRound' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>e:\directories\opencv244\include\opencv2\core\types_c.h(309): warning C4793: 'cvRound' : function compiled as native :
+         	Aligned data types not supported in managed code
+     1>e:\directories\opencv244\include\opencv2\core\types_c.h(328): warning C4793: 'cvRound' : function compiled as native :
+         	Aligned data types not supported in managed code
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TP /errorReport:prompt "C:\Users\Dell\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Design.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Keyboard.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Schedule.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar.SuperGrid.dll /r:E:\hy\ImageProcess\Release\DevComponents.DotNetBar2.dll /r:E:\hy\ImageProcess\Release\DevComponents.Instrumentation.Design.dll /r:E:\hy\ImageProcess\Release\DevComponents.Instrumentation.dll /r:E:\hy\ImageProcess\Release\DevComponents.SuperGrid.Design.dll /r:E:\hy\ImgProcessControl\ImgProcessControl\Release\DevComponents.TreeGX.dll /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.Design.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile ImageProcessControl.resX,x64\Release\ImageProcess.ImageProcessControl.resources LoadingForm.resx,x64\Release\ImageProcess.LoadingForm.resources
+         Processing resource file "ImageProcessControl.resX" into "x64\Release\ImageProcess.ImageProcessControl.resources".
+         Processing resource file "LoadingForm.resx" into "x64\Release\ImageProcess.LoadingForm.resources".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Release\app.res" app.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\hy\ImageProcess\x64\Release\ImageProcess.dll" /INCREMENTAL:NO /NOLOGO opencv_core244.lib opencv_highgui244.lib opencv_imgproc244.lib opencv_objdetect244.lib opencv_video244.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:x64\Release\ImageProcess.ImageProcessControl.resources /ASSEMBLYRESOURCE:x64\Release\ImageProcess.LoadingForm.resources /MANIFEST /ManifestFile:"x64\Release\ImageProcess.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\hy\ImageProcess\x64\Release\ImageProcess.pdb" /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Release\app.res
+         x64\Release\AssemblyInfo.obj
+         x64\Release\ImageControlProcess.obj
+         x64\Release\ImageProcess.obj
+         x64\Release\ImageProcessControl.obj
+         x64\Release\LoadingForm.obj
+         x64\Release\ShowImage.obj
+         x64\Release\stdafx.obj
+         "x64\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ImageProcess.vcxproj -> E:\hy\ImageProcess\x64\Release\ImageProcess.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\hy\ImageProcess\x64\Release\ImageProcess.dll;#2" /manifest x64\Release\ImageProcess.dll.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Design.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.DotNetBar.Design.dll".
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Keyboard.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.DotNetBar.Keyboard.dll".
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.DotNetBar.Schedule.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.DotNetBar.Schedule.dll".
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.DotNetBar.SuperGrid.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.DotNetBar.SuperGrid.dll".
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.DotNetBar2.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.DotNetBar2.dll".
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.Instrumentation.Design.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.Instrumentation.Design.dll".
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.Instrumentation.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.Instrumentation.dll".
+         Copying file from "E:\hy\ImageProcess\Release\DevComponents.SuperGrid.Design.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.SuperGrid.Design.dll".
+         Copying file from "E:\hy\ImgProcessControl\ImgProcessControl\Release\DevComponents.TreeGX.dll" to "E:\hy\ImageProcess\x64\Release\DevComponents.TreeGX.dll".
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\ImageProcess.unsuccessfulbuild".
+         Touching "x64\Release\ImageProcess.lastbuildstate".
+     1>Done Building Project "E:\hy\ImageProcess\ImageProcess\ImageProcess.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.26
